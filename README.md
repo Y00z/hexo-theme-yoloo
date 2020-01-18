@@ -1,1 +1,1 @@
-# hexo-theme-yoloo
+# hexo-theme-y00z

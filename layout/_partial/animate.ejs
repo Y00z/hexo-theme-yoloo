@@ -1,0 +1,10 @@
+<% if (theme.animate_article){ %>
+<link href="<%= theme.jsCDN.animate %>" rel="stylesheet">
+<script>
+  if (yiliaConfig.isHome) {
+    var animatedArr = ["fadeInDown", "fadeInLeft", "fadeInRight", "fadeInUp", "rollIn", "jackInTheBox", "zoomIn", "rotateInDownLeft", "rotateInDownRight", "rotateInUpLeft", "rotateInUpRight", "lightSpeedIn", "flipInX", "flipInY", "bounceIn", "bounce"]
+    var animated_class = animatedArr[Math.floor(Math.random() * (animatedArr.length - 1 - 0 + 1)) + 0]
+    $("article").addClass("animated " + animated_class)
+  }
+</script>
+<% } %>

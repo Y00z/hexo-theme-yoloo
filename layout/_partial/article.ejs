@@ -104,6 +104,14 @@
     }) %>
   <% } %>
 
+  <% if (theme.gitment.enable){ %>
+    <%- partial('post/gitment', {
+        key: post.slug,
+        title: post.title,
+        url: config.url+url_for(post.path)
+    }) %>
+  <% } %>
+
   <% if (theme.disqus || config.disqus_shortname){ %>
     <section id="comments">
       <div id="disqus_thread"></div>

@@ -33,9 +33,9 @@
 		        <%}%>
 			</div>
 		</nav>
-		<% if(theme.muisc_163){ %>
+		<% if(theme.muisc_163.enable){ %>
 			<nav class="header-music" style="margin-top: 80px;position: fixed;left: 0px;">
-				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=300 height=86 src="//music.163.com/outchain/player?type=2&id=<%=theme.muisc_163%>&auto=1&height=66"></iframe>
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=300 height=86 src="//music.163.com/outchain/player?type=2&id=<%=theme.muisc_163.id%>&auto=<%=theme.muisc_163.auto%>&height=66"></iframe>
 			</nav>
 		<% } %>
 	</header>		

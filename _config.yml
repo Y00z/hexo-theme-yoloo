@@ -82,8 +82,12 @@ cartoon: true
 #是否开启文章动画
 animate_article: true
 
-#是否开启网易云音乐，值为网易云歌曲的id，如果不开启就留空
-muisc_163: 694286
+#是否开启网易云音乐
+muisc_163:
+  enable: true
+  auto: 0   # 自动播放  1是，0否
+  id: 694286  #网易云歌曲的id，如果不开启就留空
+  
 
 #评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus 不需要使用某项，直接设置值为false，或注释掉
 #具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/

@@ -36,3 +36,16 @@
 		}
 	}
 }
+#waifu{
+	z-index: 999!important;
+	height: 330px;
+}
+.icon-top{
+	width: 128px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.icon-top + a {
+	margin-left:30px;
+}

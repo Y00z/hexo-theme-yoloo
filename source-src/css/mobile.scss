@@ -377,3 +377,10 @@ html, body, #container {
         }
     }
 }
+
+.icon-top{
+	width: 80px;
+}
+.icon-top + a {
+	margin-left:55px!important;
+}

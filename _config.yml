@@ -17,10 +17,10 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  mail: "Mailto:yooz@foxmail.com"
+  mail: "Mailto:yooz@live.cn"
   #facebook: "#"
   #google: "#"
-  twitter: "https://twitter.com/Y00z_"
+  #twitter: "https://twitter.com/Y00z_"
   #linkedin: "#"
 
 rss: /atom.xml

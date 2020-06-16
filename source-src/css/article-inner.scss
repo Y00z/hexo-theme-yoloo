@@ -224,4 +224,44 @@
       }
     }
   }
+  .copyright{
+    width: 95%;
+    max-width: 45em;
+    margin: 5.2em auto 0;
+    padding: .5em 1.8em;
+    border: 1px solid lightgray;
+    font-size: .93rem;
+    line-height: 1.6em;
+    word-break: break-all;
+    background: rgba(255, 255, 255, .4);
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.07);
+    p{
+      margin: 0;
+    }
+    span {
+        display: inline-block;
+        width: 5.8em;
+        color: #B5B5B5;
+        font-weight: bold;
+    }
+    a {
+        color: gray;
+        &:hover {
+            color: #a3d2a3;
+            text-decoration: underline;
+        }
+    }
+    &:hover .fa-clipboard {
+        color: black;
+        cursor: pointer;
+    }
+    .copy-path {
+        margin-left: 1em;
+        width:1em;
+        &:hover {
+            color: gray;
+            cursor: pointer;
+        }
+    }
+  }
 }

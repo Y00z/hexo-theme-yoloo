@@ -158,3 +158,4 @@ jsCDN:
   heweather: //widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1
   fontawesome: //cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css
   live2dwidget: //cdn.jsdelivr.net/gh/Y00z/live2d-widget/autoload.js
+  clipboard: //cdn.bootcdn.net/ajax/libs/clipboard.js/2.0.6/clipboard.min.js

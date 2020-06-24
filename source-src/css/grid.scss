@@ -6,13 +6,22 @@ body, button, input, select, textarea {
     line-height: 1.75;
 }
 body {
-	overflow-y: hidden;
+	// overflow-y: hidden;
 	background:#eaeaea;
 }
 html, body, #container {
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
+    // height: 100%;
+    // overflow-x: hidden;
+    // overflow-y: auto;
+}
+.scrollbar{
+	position: fixed;
+	top: 0;
+	height: 3px;
+	width: 0%;
+	background: orange;
+	transition-duration: 1s,1s;
+	z-index: 99999;
 }
 #mobile-nav {
 	display: none;

@@ -24,8 +24,15 @@
 			<nav class="header-nav">
 				<div class="social">
 					<% for (var i in theme.subnav){ %>
-						<a class="<%= i %>" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><i class="icon-<%= i %>"></i></a>
-			        <%}%>
+						<% if (i == 'weixin') {%>
+							<i class="<%= i %> tool-logo" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>">
+								<i class="icon-<%= i %>"></i>
+								<img class="animated fadeInDown" src="<%- url_for(theme.subnav[i]) %>"/>
+							</i>
+						<% }else{ %>
+							<a class="<%= i %> tool-logo" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><i class="icon-<%= i %>"></i></a>
+						<% } %>
+					<%}%>
 				</div>
 			</nav>
 

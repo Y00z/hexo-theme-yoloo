@@ -11,7 +11,7 @@ subnav:
   #rss: "#"
   #zhihu: "#"
   #qq: "#"
-  #weixin: "#"
+  weixin: "https://cdn.jsdelivr.net/gh/Y00z/Test@master/WechatIMG412.jpeg"
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
@@ -81,6 +81,9 @@ cartoon: true
 
 #是否开启文章动画
 animate_article: true
+
+#是否开启页面浏览进度条
+page_progress: true
 
 #是否开启网易云音乐
 muisc_163:

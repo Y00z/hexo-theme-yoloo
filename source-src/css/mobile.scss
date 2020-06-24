@@ -2,8 +2,8 @@ html,
 body,
 #container {
   height: auto;
-  overflow-x: hidden;
-  overflow-y: auto;
+  // overflow-x: hidden;
+  // overflow-y: auto;
 }
 
 #mobile-nav {
@@ -26,6 +26,7 @@ body,
 #header {
   .header-nav {
     position: relative;
+    z-index: 9;
   }
 }
 

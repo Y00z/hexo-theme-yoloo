@@ -1,150 +1,200 @@
-#header .header-nav{
+#header .header-nav {
     width: 100%;
     position: absolute;
     transition: transform .3s ease-in;
+
     .social {
         margin-top: 10px;
         text-align: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        a {
-            border-radius:50%;
-            display:-moz-inline-stack;
-            display:inline-block;
-            vertical-align:middle;
-            *vertical-align:auto;
-            zoom:1;
-            *display:inline;
-            margin:0 8px 15px 8px;
-            transition:0.3s;
+
+        .tool-logo {
+            border-radius: 50%;
+            display: -moz-inline-stack;
+            display: inline-block;
+            vertical-align: middle;
+            *vertical-align: auto;
+            zoom: 1;
+            *display: inline;
+            margin: 0 8px 15px 8px;
+            transition: 0.3s;
             text-align: center;
             color: #fff;
             opacity: 0.7;
             width: 28px;
             height: 28px;
             line-height: 26px;
+
             &:hover {
-                opacity:1
+                opacity: 1
             }
-        }
-        a.weibo {
-            background: #aaaaff;
-            border:1px solid #aaaaff;
-            &:hover {
-                border:1px solid #aaaaff;
+
+            &.mail {
+                background: #005a87;
+                border: 1px solid #005a87;
+
+                &:hover {
+                    border: 1px solid #006b98;
+                }
             }
-        }
-        a.segmentfault {
-            background: #009a61;
-            border:1px solid #009a61;
-            &:hover {
-                border:1px solid #009a61;
+
+            &.weibo {
+                background: #aaaaff;
+                border: 1px solid #aaaaff;
+
+                &:hover {
+                    border: 1px solid #aaaaff;
+                }
             }
-        }
-        a.rss {
-            background: #ef7522;
-            border:1px solid #ef7522;
-            &:hover {
-                border:1px solid #cf5d0f;
+
+            &.segmentfault {
+                background: #009a61;
+                border: 1px solid #009a61;
+
+                &:hover {
+                    border: 1px solid #009a61;
+                }
             }
-        }
-        a.github {
-            background: #afb6ca;
-            border:1px solid #afb6ca;
-            &:hover {
-                border:1px solid #909ab6;
+
+            &.rss {
+                background: #ef7522;
+                border: 1px solid #ef7522;
+
+                &:hover {
+                    border: 1px solid #cf5d0f;
+                }
             }
-        }
-        a.facebook {
-            background: #3b5998;
-            border:1px solid #3b5998;
-            &:hover {
-                border:1px solid #2d4373;
+
+            &.github {
+                background: #afb6ca;
+                border: 1px solid #afb6ca;
+
+                &:hover {
+                    border: 1px solid #909ab6;
+                }
             }
-        }
-        a.google {
-            background: #c83d20;
-            border:1px solid #c83d20;
-            &:hover {
-                border:1px solid #9c3019;
+
+            &.facebook {
+                background: #3b5998;
+                border: 1px solid #3b5998;
+
+                &:hover {
+                    border: 1px solid #2d4373;
+                }
             }
-        }
-        a.twitter {
-            background: #55cff8;
-            border:1px solid #55cff8;
-            &:hover {
-                border:1px solid #24c1f6;
+
+            &.google {
+                background: #c83d20;
+                border: 1px solid #c83d20;
+
+                &:hover {
+                    border: 1px solid #9c3019;
+                }
             }
-        }
-        a.linkedin {
-            background: #005a87;
-            border:1px solid #005a87;
-            &:hover {
-                border:1px solid #006b98;
+
+            &.twitter {
+                background: #55cff8;
+                border: 1px solid #55cff8;
+
+                &:hover {
+                    border: 1px solid #24c1f6;
+                }
             }
-        }
-        a.acfun {
-            background: #fd4c5d;
-            border:1px solid #fd4c5d;
-            &:hover {
-                border:1px solid #fd4c5d;
+
+            &.linkedin {
+                background: #005a87;
+                border: 1px solid #005a87;
+
+                &:hover {
+                    border: 1px solid #006b98;
+                }
             }
-        }
-        a.bilibili {
-            background: #e15280;
-            border:1px solid #e15280;
-            &:hover {
-                border:1px solid #e15280;
+
+            &.acfun {
+                background: #fd4c5d;
+                border: 1px solid #fd4c5d;
+
+                &:hover {
+                    border: 1px solid #fd4c5d;
+                }
             }
-        }
-        a.zhihu {
-            background: #0078d8;
-            border:1px solid #0078d8;
-            &:hover {
-                border:1px solid #0078d8;
+
+            &.bilibili {
+                background: #e15280;
+                border: 1px solid #e15280;
+
+                &:hover {
+                    border: 1px solid #e15280;
+                }
             }
-        }
-        a.douban {
-            background: #06c611;
-            border:1px solid #06c611;
-            &:hover {
-                border:1px solid #06c611;
+
+            &.zhihu {
+                background: #0078d8;
+                border: 1px solid #0078d8;
+
+                &:hover {
+                    border: 1px solid #0078d8;
+                }
             }
-        }
-        a.mail {
-            background: #005a87;
-            border:1px solid #005a87;
-            &:hover {
-                border:1px solid #006b98;
+
+            &.douban {
+                background: #06c611;
+                border: 1px solid #06c611;
+
+                &:hover {
+                    border: 1px solid #06c611;
+                }
             }
-        }
-        a.jianshu {
-            background: #ff5722;
-            border:1px solid #ff5722;
-            &:hover {
-                border:1px solid #ff5722;
+
+            &.jianshu {
+                background: #ff5722;
+                border: 1px solid #ff5722;
+
+                &:hover {
+                    border: 1px solid #ff5722;
+                }
             }
-        }
-        a.weixin {
-            background: #4caf50;
-            border:1px solid #4caf50;
-            &:hover {
-                border:1px solid #4caf50;
+
+            &.weixin {
+                background: #4caf50;
+                border: 1px solid #4caf50;
+                position: relative;
+                &:hover {
+                    border: 1px solid #4caf50;
+                    img{
+                        display: block;
+                    }
+                }
+                img{
+                    max-width: 125px;
+                    position: absolute;
+                    z-index: 1;
+                    left: -50px;
+                    top: 45px;
+                    display: none;
+                    transform: translate3d(0, -50%, 0);
+                    animation-duration: 500ms;
+                }
             }
-        }
-        a.qq {
-            background: #34baad;
-            border:1px solid #34baad;
-            &:hover {
-                border:1px solid #34baad;
+
+            &.qq {
+                background: #34baad;
+                border: 1px solid #34baad;
+
+                &:hover {
+                    border: 1px solid #34baad;
+                }
             }
-        }
-        a.psn {
-            background: #086ef6;
-            border:1px solid #086ef6;
-            &:hover {
-                border:1px solid #086ef6;
+
+            &.psn {
+                background: #086ef6;
+                border: 1px solid #086ef6;
+
+                &:hover {
+                    border: 1px solid #086ef6;
+                }
             }
         }
     }
